@@ -8,7 +8,7 @@ def message(msg, name):
     print(output)
 
 def hello(name="world"):
-    message("Hello", name)
+    message("Herro", name)
 
 
 def main():
