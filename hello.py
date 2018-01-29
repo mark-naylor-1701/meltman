@@ -3,11 +3,12 @@
 # file:  hello.py
 # date:  2018-Jan-28
 
-def hello():
-    print("Hello, world.")
+def hello(name="world"):
+    print("Hello, {0}.".format(name))
 
 def main():
     hello()
+    hello("David")
 
 if __name__ == '__main__':
     main()
