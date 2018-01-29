@@ -1,0 +1,1 @@
+This repository is not intended to be for a working project. It was created as a demo for some of the basic git tasks that would take place in a development cycle.
