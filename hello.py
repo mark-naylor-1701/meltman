@@ -10,11 +10,14 @@ def message(msg, name):
 def hello(name="world"):
     message("Hello", name)
 
+def goodbye(name="world"):
+    message("Goodbye", name)
 
 def main():
-    hello()
+    #hello()
     hello("David")
-    message("Out the back", "Jack")
+    #message("Out the back", "Jack")
+    goodbye("David")
 
 if __name__ == '__main__':
     main()
