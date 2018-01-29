@@ -4,7 +4,7 @@
 # date:  2018-Jan-28
 
 def hello(name="world"):
-    print("Hello, {0}.".format(name))
+    print("Hello, {}.".format(name))
 
 def main():
     hello()
