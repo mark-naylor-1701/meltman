@@ -5,13 +5,13 @@
 
 import sys
 
-import hello
+import message
 
 def main():
     if len(sys.argv) > 1:
-        hello.hello(sys.argv[1])
+        message.hello(sys.argv[1])
     else:
-        hello.hello()
+        message.hello()
 
 if __name__ == '__main__':
     main()

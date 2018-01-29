@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 # author: Mark W. Naylor
-# file:  hello.py
+# file:  message.py
 # date:  2018-Jan-28
 
 def message(msg, name):
