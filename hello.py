@@ -3,4 +3,11 @@
 # file:  hello.py
 # date:  2018-Jan-28
 
-print("Hello, world.")
+def hello():
+    print("Hello, world.")
+
+def main():
+    hello()
+
+if __name__ == '__main__':
+    main()
